@@ -23,15 +23,15 @@
             <br />
             <br />
             <img src="../assets/images/Base64Header.jpg" height="40" width="500" />
-            <form>
+            <form runat="server">
                 <label>Please enter your string</label>
                 <br />
-                <textarea id="base64" rows="10" cols="50" name="text" id="text" style="border-block-color: #414241; border-block: groove; background-color: #393E46; color: #F2E7D5 "></textarea>
+                <textarea id="base64" rows="10" cols="50" name="text" style="border-block-color: #414241; border-block: groove; background-color: #393E46; color: #F2E7D5 "></textarea>
                 <br />
-                <input type="submit" name="encode" id="encode" value="Encode" style="background-color: #6D9886" />
-                <input type="submit" name="decode" id="decode" value="Decode" style="background-color: #6D9886" />
+                <input type="submit" name="encode" value="Encode" style="background-color: #6D9886" />
+                <input type="submit" name="decode" value="Decode" style="background-color: #6D9886" />
             </form>
-            <textarea id="respond" rows="10" cols="50" style="border-block-color: #414241; border-block: groove; background-color: #393E46; color: #F2E7D5 "><%=encoded %></textarea>
+            <textarea id="respond" rows="10" cols="50" style="border-block-color: #414241; border-block: groove; background-color: #393E46; color: #F2E7D5 "><%=respond %></textarea>
             <br />
             <img src="../assets/images/base64.png" height="150px" width="150px" />
             <br />
@@ -50,6 +50,7 @@ One common application of Base64 encoding on the web is to encode binary data so
 in a <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URLs" style="color: #6D9886">data:URL</a>.
     </pre>
         <a href="https://developer.mozilla.org/en-US/docs/Glossary/Base64" style="color:antiquewhite">Read more</a>
+        <br />
         <img src="../assets/images/SabaLogo.png" height="100" width="100" />
     </div>
 </body>
