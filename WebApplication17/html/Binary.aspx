@@ -26,15 +26,15 @@
             <br />
             <br />
             <img src="../assets/images/Base2Header.png" height="40" width="500"/>
-            <form>
+            <form runat="server">
                 <label>Please enter your string</label>
                 <br />
-                <textarea id="Binary" rows="10" cols="50" style="border-block-color: #414241; border-block: groove; background-color: #393E46; color: #F2E7D5 "></textarea>
+                <textarea name="text" rows="10" cols="50" style="border-block-color: #414241; border-block: groove; background-color: #393E46; color: #F2E7D5 "></textarea>
                 <br />
-                <input type="submit" id="encode" value="Encode" style="background-color: #6D9886" />
-                <input type="submit" id="decode" value="Decode" style="background-color: #6D9886" />
+                <input type="submit" name="encode" value="Encode" style="background-color: #6D9886" />
+                <input type="submit" name="decode" value="Decode" style="background-color: #6D9886" />
             </form>
-            <textarea id="respond" rows="10" cols="50" style="border-block-color: #414241; border-block: groove; background-color: #393E46; color: #F2E7D5 "></textarea>
+            <textarea id="respond" rows="10" cols="50" style="border-block-color: #414241; border-block: groove; background-color: #393E46; color: #F2E7D5 "><%=respond %></textarea>
             <br />
             <img src="../assets/images/Binarylogo.png" height="150px" width="150px" />
             <br />

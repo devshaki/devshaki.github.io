@@ -9,8 +9,13 @@ namespace WebApplication17.html
 {
     public partial class Hexadecimal : System.Web.UI.Page
     {
+        public string respond;
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Request.Form["encode"] != null)
+            {
+
+            }
 
         }
     }
