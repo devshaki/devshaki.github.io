@@ -86,87 +86,87 @@
     <Content Include="assets\images\homeBackground.jpg" />
     <Content Include="assets\images\octallogo.png" />
     <Content Include="assets\images\SabaLogo.png" />
-    <Content Include="html\Base64.aspx" />
-    <Content Include="html\Binary.aspx" />
+    <Content Include="Base64.aspx" />
+    <Content Include="Binary.aspx" />
     <Content Include="old\Binary.html" />
-    <Content Include="html\Char.aspx" />
+    <Content Include="Char.aspx" />
     <Content Include="old\Char.html" />
-    <Content Include="html\Decimal.aspx" />
+    <Content Include="Decimal.aspx" />
     <Content Include="old\Decimal.html" />
-    <Content Include="html\Hexadecimal.aspx" />
+    <Content Include="Hexadecimal.aspx" />
     <Content Include="old\Hexadecimal.html" />
-    <Content Include="html\Home.aspx" />
-    <Content Include="html\login.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="login.aspx" />
     <Content Include="old\login.html" />
-    <Content Include="html\Octal.aspx" />
+    <Content Include="Octal.aspx" />
     <Content Include="old\Octal.html" />
-    <Content Include="html\signup.aspx" />
+    <Content Include="signup.aspx" />
     <Content Include="old\signup.html" />
     <Content Include="style\StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="html\Base64.aspx.cs">
+    <Compile Include="Base64.aspx.cs">
       <DependentUpon>Base64.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="html\Base64.aspx.designer.cs">
+    <Compile Include="Base64.aspx.designer.cs">
       <DependentUpon>Base64.aspx</DependentUpon>
     </Compile>
-    <Compile Include="html\Binary.aspx.cs">
+    <Compile Include="Binary.aspx.cs">
       <DependentUpon>Binary.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="html\Binary.aspx.designer.cs">
+    <Compile Include="Binary.aspx.designer.cs">
       <DependentUpon>Binary.aspx</DependentUpon>
     </Compile>
-    <Compile Include="html\Char.aspx.cs">
+    <Compile Include="Char.aspx.cs">
       <DependentUpon>Char.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="html\Char.aspx.designer.cs">
+    <Compile Include="Char.aspx.designer.cs">
       <DependentUpon>Char.aspx</DependentUpon>
     </Compile>
-    <Compile Include="html\Decimal.aspx.cs">
+    <Compile Include="Decimal.aspx.cs">
       <DependentUpon>Decimal.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="html\Decimal.aspx.designer.cs">
+    <Compile Include="Decimal.aspx.designer.cs">
       <DependentUpon>Decimal.aspx</DependentUpon>
     </Compile>
-    <Compile Include="html\Hexadecimal.aspx.cs">
+    <Compile Include="Hexadecimal.aspx.cs">
       <DependentUpon>Hexadecimal.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="html\Hexadecimal.aspx.designer.cs">
+    <Compile Include="Hexadecimal.aspx.designer.cs">
       <DependentUpon>Hexadecimal.aspx</DependentUpon>
     </Compile>
-    <Compile Include="html\Home.aspx.cs">
+    <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="html\Home.aspx.designer.cs">
+    <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
-    <Compile Include="html\login.aspx.cs">
+    <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="html\login.aspx.designer.cs">
+    <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="html\Octal.aspx.cs">
+    <Compile Include="Octal.aspx.cs">
       <DependentUpon>Octal.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="html\Octal.aspx.designer.cs">
+    <Compile Include="Octal.aspx.designer.cs">
       <DependentUpon>Octal.aspx</DependentUpon>
     </Compile>
-    <Compile Include="html\signup.aspx.cs">
+    <Compile Include="signup.aspx.cs">
       <DependentUpon>signup.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="html\signup.aspx.designer.cs">
+    <Compile Include="signup.aspx.designer.cs">
       <DependentUpon>signup.aspx</DependentUpon>
     </Compile>
     <Compile Include="MyAdoHelperSQL_cs.cs" />
@@ -180,6 +180,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="html\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
