@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="WebApplication17.html.Home" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="WebApplication17.Home" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -8,6 +8,7 @@
     <link href="../style/StyleSheet.css" rel="stylesheet" />
 </head>
 <body class="Home">
+
     <div class="sidebar">
         <label><%string status = Request.QueryString["status"]; if (status != null) { Response.Write(status); } %></label>
         <a class="active" href="Home.aspx">Home</a>
@@ -17,11 +18,19 @@
         <a href="Binary.aspx">Binary</a>
         <a href="Octal.aspx">Octal</a>
         <a href="Char.aspx">Char</a>
-        <a href="login.aspx">Login/sign up</a>
+        <%=Link %>
     </div>
     
     <div class="content">
         <center>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <%=userMsg %>
+            <%=userCounter %>
             <h1 style="font-size: 80px;">Encodeing and decoding</h1>
             <h1 style="font-size:40px;">What Does Encoding Mean?</h1>
             <br />

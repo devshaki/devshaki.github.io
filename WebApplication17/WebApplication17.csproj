@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="admin.aspx" />
+    <Content Include="adminEditUser.aspx" />
     <Content Include="App_Data\db.mdf" />
     <Content Include="App_Data\db_log.ldf">
       <DependentUpon>db.mdf</DependentUpon>
@@ -88,6 +90,8 @@
     <Content Include="assets\images\SabaLogo.png" />
     <Content Include="Base64.aspx" />
     <Content Include="Binary.aspx" />
+    <Content Include="changeInfo.aspx" />
+    <Content Include="DeleteUser.aspx" />
     <Content Include="old\Binary.html" />
     <Content Include="Char.aspx" />
     <Content Include="old\Char.html" />
@@ -100,12 +104,27 @@
     <Content Include="old\login.html" />
     <Content Include="Octal.aspx" />
     <Content Include="old\Octal.html" />
+    <Content Include="search.aspx" />
     <Content Include="signup.aspx" />
     <Content Include="old\signup.html" />
     <Content Include="style\StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminEditUser.aspx.cs">
+      <DependentUpon>adminEditUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminEditUser.aspx.designer.cs">
+      <DependentUpon>adminEditUser.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Base64.aspx.cs">
       <DependentUpon>Base64.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -120,6 +139,13 @@
     <Compile Include="Binary.aspx.designer.cs">
       <DependentUpon>Binary.aspx</DependentUpon>
     </Compile>
+    <Compile Include="changeInfo.aspx.cs">
+      <DependentUpon>changeInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="changeInfo.aspx.designer.cs">
+      <DependentUpon>changeInfo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Char.aspx.cs">
       <DependentUpon>Char.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -133,6 +159,13 @@
     </Compile>
     <Compile Include="Decimal.aspx.designer.cs">
       <DependentUpon>Decimal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteUser.aspx.cs">
+      <DependentUpon>DeleteUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteUser.aspx.designer.cs">
+      <DependentUpon>DeleteUser.aspx</DependentUpon>
     </Compile>
     <Compile Include="Hexadecimal.aspx.cs">
       <DependentUpon>Hexadecimal.aspx</DependentUpon>
@@ -161,6 +194,13 @@
     </Compile>
     <Compile Include="Octal.aspx.designer.cs">
       <DependentUpon>Octal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="search.aspx.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="search.aspx.designer.cs">
+      <DependentUpon>search.aspx</DependentUpon>
     </Compile>
     <Compile Include="signup.aspx.cs">
       <DependentUpon>signup.aspx</DependentUpon>

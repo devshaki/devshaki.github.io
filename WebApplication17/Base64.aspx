@@ -16,7 +16,6 @@
         <a href="Binary.aspx">Binary</a>
         <a href="Octal.aspx">Octal</a>
         <a href="Char.aspx">Char</a>
-        <a href="login.aspx">Login/sign up</a>
     </div>
     <div class="content">
         <Center>
